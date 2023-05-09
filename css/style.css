@@ -1,0 +1,54 @@
+/* NORMATIVAS */
+*{    font-family: 'Roboto', sans-serif;}
+html{    font-size: 62.5%;}
+ul{ list-style: none;}
+li{
+    display: inline-block;
+    position: relative;
+}
+a{ text-decoration: none;}
+main{ display: block;}
+
+h2{
+    font-weight: bold;
+    font-style: italic;
+}
+p{  font-size: 1em; }
+header{
+    background: url(../img/baner.jpg);
+    display: flex;
+}
+header div{
+    display: flex  ;
+    font-size: 0.6em;
+}
+header nav{
+    padding: 20px;
+    font-weight: bolder;
+    text-align: justify;
+    font-size: 1em;
+    position: relative;
+}
+/* VIDEO */
+iframe{
+    height: 250px;
+    width: 300px;
+     justify-content: center;
+}
+/* FIN NORMATIVAS */
+
+/* CLASES */
+.contenedor{
+    max-width: 80%;
+    margin: auto;
+    padding: 0;
+    height: 250px;
+    width: 300px;
+}
+.texto-contenedor{
+    display: inline-block;
+    background-color: blue;
+}
+.card-productos{
+    display: inline-block;
+}
